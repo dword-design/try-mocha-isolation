@@ -1,0 +1,13 @@
+{
+  "name": "try-test-isolation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "mocha": "mocha --require mocha-isolation/register mocha.js"
+  },
+  "dependencies": {
+    "mocha": "^9.1.3",
+    "mocha-isolation": "^0.1.5"
+  }
+}
